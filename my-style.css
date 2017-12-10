@@ -808,7 +808,7 @@ body.home #after-header-widgets h1, body.home #after-header-widgets body.page:no
   body.error404 .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.archive .page-title, body.archive body.home #after-header-widgets .page-title, body.home #after-header-widgets body.blog #before-content-widgets:after, body.blog body.home #after-header-widgets #before-content-widgets:after, body.home #after-header-widgets
   body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets:after,
   body.single:not(.single-post):not(.single-wcb_speaker) body.home #after-header-widgets #before-content-widgets:after {
-	font-size: 7rem;
+	font-size: 4rem;
 	font-weight: 300;
 	line-height: 1;
 }
@@ -843,7 +843,7 @@ body.home #after-header-widgets h1 b, body.home #after-header-widgets body.page:
 	      body.error404 .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.archive .page-title, body.archive body.home #after-header-widgets .page-title, body.home #after-header-widgets body.blog #before-content-widgets:after, body.blog body.home #after-header-widgets #before-content-widgets:after, body.home #after-header-widgets
 	      body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets:after,
 	      body.single:not(.single-post):not(.single-wcb_speaker) body.home #after-header-widgets #before-content-widgets:after {
-		font-size: 150px;
+		font-size: 120px;
 	}
 }
 
@@ -861,12 +861,12 @@ body.home #after-header-widgets h1 b, body.home #after-header-widgets body.page:
 	      body.error404 .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.archive .page-title, body.archive body.home #after-header-widgets .page-title, body.home #after-header-widgets body.blog #before-content-widgets:after, body.blog body.home #after-header-widgets #before-content-widgets:after, body.home #after-header-widgets
 	      body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets:after,
 	      body.single:not(.single-post):not(.single-wcb_speaker) body.home #after-header-widgets #before-content-widgets:after {
-		font-size: 235px;
+		font-size: 170px;
 	}
 }
 
 body.home #after-header-widgets h2, body.home #after-header-widgets .widget-area.front-page .widget .widget-title, .widget-area.front-page .widget body.home #after-header-widgets .widget-title {
-	font-size: 30px;
+	font-size: 28px;
 	font-weight: 600;
 	margin-bottom: 1em;
 }
