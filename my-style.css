@@ -15,6 +15,9 @@ body.blog #before-content-widgets, body.single:not(.single-post):not(.single-wcb
 body.page:not(.home) .entry-header, body.archive .page-header, body.single-post .entry-header, body.single-wcb_speaker .entry-header, body.search .page-header, body.error404 .entry-header {
     background-image: url(https://2018.bratislava.wordcamp.org/files/2017/11/wordcamp-bratislava-2018.jpg) !important;
 }
+.site-footer {
+    background-image: url(https://2018.bratislava.wordcamp.org/files/2017/12/footer-background.png) !important;
+}
 /* Copyright na obrázku */
 body.home #after-header-widgets aside:after {
 	content: "" !important;
