@@ -59,7 +59,12 @@ body.home #after-header-widgets h1, body.home #after-header-widgets body.page:no
  	font-size: 3em !important;
   }
 }
-
+@media (min-width: 617px){
+#masthead .site-title a {
+    background-size: 143px 36px !important;
+    width: 143px !important;
+}
+}
 
 /*Program z 2017.nashik.wordcamp.org */
 .wcpt-schedule {
