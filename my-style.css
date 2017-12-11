@@ -22,6 +22,10 @@ body.home #after-header-widgets aside:after {
 body.blog #before-content-widgets, body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets {
     background-image: url(https://2018.bratislava.wordcamp.org/files/2017/11/wordcamp-bratislava-2018.jpg) !important;
 }
+body.page:not(.home) .entry-header, body.archive .page-header, body.single-post .entry-header, body.single-wcb_speaker .entry-header, body.search .page-header, body.error404 .entry-header {
+    background-image: url(https://2018.bratislava.wordcamp.org/files/2017/11/wordcamp-bratislava-2018.jpg) !important;
+}
+
 body.blog #before-content-widgets:after {
     content: "Najnovšie správy" !important;
 }
