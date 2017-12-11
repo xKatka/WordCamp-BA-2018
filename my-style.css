@@ -1,35 +1,30 @@
+/* WCBratislava font size */
 body.home #after-header-widgets h1, body.home #after-header-widgets body.page:not(.home) .entry-header .entry-title, body.page:not(.home) .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.archive .page-header .entry-title, body.archive .page-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.single-post .entry-header .entry-title, body.single-post .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.single-wcb_speaker .entry-header .entry-title, body.single-wcb_speaker .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.search .page-header .entry-title, body.search .page-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.error404 .entry-header .entry-title, body.error404 .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.archive .page-title, body.archive body.home #after-header-widgets .page-title, body.home #after-header-widgets body.blog #before-content-widgets:after, body.blog body.home #after-header-widgets #before-content-widgets:after, body.home #after-header-widgets body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets:after, body.single:not(.single-post):not(.single-wcb_speaker) body.home #after-header-widgets #before-content-widgets:after {
     font-size: 4rem !important;
 }
-
+/* pozadia a logo */
 #masthead .site-title a {
     background-image: url(https://2018.bratislava.wordcamp.org/files/2017/11/masthead-logo.png) !important;
 }
-
 body.home #after-header-widgets:before {
     background-image: url(https://2018.bratislava.wordcamp.org/files/2017/11/wordcamp-bratislava-2018.jpg) !important;
 }
-
-.site-info-network {
-  content: 'WordCamp Central';
-}
-
-body.home #after-header-widgets aside:after {
-	content: "" !important;
-    display:none !important;
-}
-
 body.blog #before-content-widgets, body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets {
     background-image: url(https://2018.bratislava.wordcamp.org/files/2017/11/wordcamp-bratislava-2018.jpg) !important;
 }
 body.page:not(.home) .entry-header, body.archive .page-header, body.single-post .entry-header, body.single-wcb_speaker .entry-header, body.search .page-header, body.error404 .entry-header {
     background-image: url(https://2018.bratislava.wordcamp.org/files/2017/11/wordcamp-bratislava-2018.jpg) !important;
 }
-
+/* Copyright na obrázku */
+body.home #after-header-widgets aside:after {
+	content: "" !important;
+    display:none !important;
+}
+/* Title na News */
 body.blog #before-content-widgets:after {
     content: "Najnovšie správy" !important;
 }
-
+/* Čítať ďalej button */
 #page .more-link {
     padding: 1rem 3rem;
     background: #5cd3bd;
@@ -45,9 +40,19 @@ body.blog #before-content-widgets:after {
 	color: #5cd3bd;
     background: transparent;
 }
+/* Kokociny na blogu, čo nechceme */
 body.blog .comments-link {display:none !important;}
 body.single-post .byline {display:none !important;}
-
+/* Newsletter */
+label.wcorg-mailchimp-name {display:none !important;}
+input#wcorg-mailchimp-name {display:none !important;}
+input#wcorg-mailchimp-email {width: 75% !important;
+    float: left !important;
+    height: 40px !important;
+border-radius: 0px !important; }
+.widget_wcorg_mailchimp_wiget .wcorg-mailchimp label, .widget_wcorg_mailchimp_wiget .wcorg-mailchimp input[type="submit"] 
+{float:left !important;}
+/* MEDIA */
 @media (min-width: 992px){
 body.home #after-header-widgets h1, body.home #after-header-widgets body.page:not(.home) .entry-header .entry-title, body.page:not(.home) .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.archive .page-header .entry-title, body.archive .page-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.single-post .entry-header .entry-title, body.single-post .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.single-wcb_speaker .entry-header .entry-title, body.single-wcb_speaker .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.search .page-header .entry-title, body.search .page-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.error404 .entry-header .entry-title, body.error404 .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.archive .page-title, body.archive body.home #after-header-widgets .page-title, body.home #after-header-widgets body.blog #before-content-widgets:after, body.blog body.home #after-header-widgets #before-content-widgets:after, body.home #after-header-widgets body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets:after, body.single:not(.single-post):not(.single-wcb_speaker) body.home #after-header-widgets #before-content-widgets:after {
     font-size: 170px !important;
