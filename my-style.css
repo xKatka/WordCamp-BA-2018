@@ -16,7 +16,7 @@ body.page:not(.home) .entry-header, body.archive .page-header, body.single-post 
     background-image: url(https://2018.bratislava.wordcamp.org/files/2017/11/wordcamp-bratislava-2018.jpg) !important;
 }
 .site-footer {
-    background-image: url(https://2018.bratislava.wordcamp.org/files/2017/12/footer-background.png) !important;
+    background-image: url(https://2018.bratislava.wordcamp.org/files/2017/12/footerbackground.png) !important;
 }
 /* Copyright na obrázku */
 body.home #after-header-widgets aside:after {
