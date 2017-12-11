@@ -30,6 +30,22 @@ body.blog #before-content-widgets:after {
     content: "Najnovšie správy" !important;
 }
 
+#page .more-link {
+    background-color: #5cd3bd;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 14px;
+    margin: 10px 0 0;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+
 @media (min-width: 992px){
 body.home #after-header-widgets h1, body.home #after-header-widgets body.page:not(.home) .entry-header .entry-title, body.page:not(.home) .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.archive .page-header .entry-title, body.archive .page-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.single-post .entry-header .entry-title, body.single-post .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.single-wcb_speaker .entry-header .entry-title, body.single-wcb_speaker .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.search .page-header .entry-title, body.search .page-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.error404 .entry-header .entry-title, body.error404 .entry-header body.home #after-header-widgets .entry-title, body.home #after-header-widgets body.archive .page-title, body.archive body.home #after-header-widgets .page-title, body.home #after-header-widgets body.blog #before-content-widgets:after, body.blog body.home #after-header-widgets #before-content-widgets:after, body.home #after-header-widgets body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets:after, body.single:not(.single-post):not(.single-wcb_speaker) body.home #after-header-widgets #before-content-widgets:after {
     font-size: 170px !important;
