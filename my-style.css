@@ -37,9 +37,13 @@ body.home #after-header-widgets h1, body.home #after-header-widgets body.page:no
   .sponsor-level {
     width: -webkit-fill-available !important;
   }
+  .post h1.entry-title {
+ 	font-size: 3em !important;
+  }
 }
 
 
+/*Program z 2017.nashik.wordcamp.org */
 .wcpt-schedule {
 	font-size: 14px;
 }
